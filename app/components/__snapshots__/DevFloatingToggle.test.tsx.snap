@@ -1,0 +1,56 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DevFloatingToggle > snapshots > renders dev toggle correctly 1`] = `
+<div
+  data-overlay-container="true"
+>
+  <div
+    class="fixed bottom-4 left-4 z-50"
+  >
+    <div
+      class="flex flex-col relative overflow-hidden h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 rounded-large transition-transform-background motion-reduce:transition-none w-80 shadow-lg border border-gray-200"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-full flex-auto flex-col place-content-inherit align-items-inherit h-auto break-words text-left overflow-y-auto subpixel-antialiased p-4"
+      >
+        <div
+          class="flex items-center justify-between"
+        >
+          <div
+            class="flex items-center gap-2"
+          >
+            <span />
+            <span
+              class="font-medium"
+            >
+              Dev Tools
+            </span>
+          </div>
+          <label
+            class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer touch-none tap-highlight-transparent select-none"
+          >
+            <input
+              aria-labelledby="«r3»"
+              class="font-inherit text-[100%] leading-[1.15] m-0 p-0 overflow-visible box-border absolute top-0 w-full h-full opacity-[0.0001] z-[1] cursor-pointer disabled:cursor-default"
+              data-react-aria-pressable="true"
+              role="switch"
+              tabindex="0"
+              type="checkbox"
+              value=""
+            />
+            <span
+              aria-hidden="true"
+              class="px-1 relative inline-flex items-center justify-start shrink-0 overflow-hidden bg-default-200 rounded-full outline-hidden group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:bg-primary group-data-[selected=true]:text-primary-foreground w-10 h-6 transition-background"
+            >
+              <span
+                class="z-10 flex items-center justify-center bg-white shadow-small rounded-full origin-right pointer-events-none w-4 h-4 text-tiny group-data-[selected=true]:ms-4 transition-all group-data-[pressed=true]:w-5 group-data-[selected]:group-data-[pressed]:ml-3"
+              />
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

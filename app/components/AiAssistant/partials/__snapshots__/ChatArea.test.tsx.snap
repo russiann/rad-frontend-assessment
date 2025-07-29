@@ -1,0 +1,101 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ChatArea > snapshots > renders chat area correctly 1`] = `
+<div
+  data-overlay-container="true"
+>
+  <div
+    class="h-full overflow-y-auto p-4 space-y-4"
+    style="scroll-behavior: smooth; max-height: 100%;"
+  >
+    <div
+      class="flex justify-start"
+    >
+      <div
+        class="flex gap-2 max-w-[80%] flex-row"
+      >
+        <span
+          class="flex relative justify-center items-center box-border overflow-hidden align-middle z-0 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-8 h-8 text-tiny bg-primary text-primary-foreground rounded-full flex-shrink-0 min-w-8"
+          tabindex="-1"
+        >
+          <span
+            aria-label="AI"
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-normal text-center text-inherit"
+            role="img"
+          >
+            AI
+          </span>
+        </span>
+        <div
+          class="rounded-lg p-3 bg-content2 rounded-tl-none"
+        >
+          <div
+            class="whitespace-pre-wrap break-words"
+          >
+            Hello! How can I help you?
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex justify-end"
+    >
+      <div
+        class="flex gap-2 max-w-[80%] flex-row-reverse"
+      >
+        <div
+          class="rounded-lg p-3 bg-primary text-white rounded-tr-none"
+        >
+          <div
+            class="whitespace-pre-wrap break-words"
+          >
+            I need help with products
+          </div>
+        </div>
+        <span
+          class="flex relative justify-center items-center box-border overflow-hidden align-middle z-0 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-8 h-8 text-tiny bg-default text-default-foreground rounded-full flex-shrink-0 min-w-8"
+          tabindex="-1"
+        >
+          <span
+            aria-label="You"
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-normal text-center text-inherit"
+            role="img"
+          >
+            You
+          </span>
+        </span>
+      </div>
+    </div>
+    <div
+      class="flex justify-start"
+    >
+      <div
+        class="flex gap-2 max-w-[80%] flex-row"
+      >
+        <span
+          class="flex relative justify-center items-center box-border overflow-hidden align-middle z-0 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-8 h-8 text-tiny bg-primary text-primary-foreground rounded-full flex-shrink-0 min-w-8"
+          tabindex="-1"
+        >
+          <span
+            aria-label="AI"
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-normal text-center text-inherit"
+            role="img"
+          >
+            AI
+          </span>
+        </span>
+        <div
+          class="rounded-lg p-3 bg-content2 rounded-tl-none"
+        >
+          <div
+            class="whitespace-pre-wrap break-words"
+          >
+            Sure! What kind of products are you looking for?
+          </div>
+        </div>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;

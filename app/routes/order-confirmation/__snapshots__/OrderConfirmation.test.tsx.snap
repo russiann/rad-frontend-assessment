@@ -1,0 +1,68 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`OrderConfirmation > snapshots > renders order confirmation correctly 1`] = `
+<div
+  data-overlay-container="true"
+>
+  <div
+    class="container mx-auto px-4 py-8 max-w-2xl flex justify-center items-center"
+  >
+    <div
+      class="flex flex-col relative overflow-hidden h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none max-w-md w-full"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-full p-3 flex-auto flex-col place-content-inherit align-items-inherit h-auto break-words overflow-y-auto subpixel-antialiased py-12 px-8 text-center"
+      >
+        <div
+          class="flex justify-center mb-6"
+        >
+          <div
+            class="bg-success/10 rounded-full p-4"
+          >
+            <span />
+          </div>
+        </div>
+        <h1
+          class="text-3xl font-semibold mb-3"
+        >
+          Order Confirmed!
+        </h1>
+        <p
+          class="text-default-600 mb-8"
+        >
+          Thank you for your purchase. Your order has been received and is being processed. You will receive an email confirmation shortly.
+        </p>
+        <div
+          class="flex flex-col gap-4"
+        >
+          <button
+            class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-6 min-w-24 h-12 text-medium gap-3 rounded-large [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover w-full"
+            data-react-aria-pressable="true"
+            tabindex="0"
+            type="button"
+          >
+            <span />
+            Continue Shopping
+          </button>
+          <button
+            class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-6 min-w-24 h-12 text-medium gap-3 rounded-large [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-default/40 text-default-700 data-[hover=true]:opacity-hover w-full"
+            data-react-aria-pressable="true"
+            tabindex="0"
+            type="button"
+          >
+            <span />
+            Return to Home
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OrderConfirmation Page > snapshots > renders order confirmation correctly 1`] = `
+<h2>
+  Unexpected Application Error!
+</h2>
+`;

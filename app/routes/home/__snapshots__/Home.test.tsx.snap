@@ -1,0 +1,302 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home Page > snapshots > renders home page correctly 1`] = `
+<div
+  class="mb-8"
+>
+  <div
+    class="flex flex-col gap-6"
+  >
+    <div>
+      <div
+        class="flex flex-col sm:flex-row gap-4 mb-6"
+      >
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased"
+          data-react-aria-pressable="true"
+          data-slot="trigger"
+          id="react-aria-«r68»"
+          tabindex="0"
+          type="button"
+        >
+          Filter by Category
+          <svg
+            aria-hidden="true"
+            class="iconify iconify--lucide text-sm"
+            focusable="false"
+            height="1em"
+            role="img"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="m6 9l6 6l6-6"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased"
+          data-react-aria-pressable="true"
+          data-slot="trigger"
+          id="react-aria-«r6b»"
+          tabindex="0"
+          type="button"
+        >
+          Sort by Price
+          <svg
+            aria-hidden="true"
+            class="iconify iconify--lucide text-sm"
+            focusable="false"
+            height="1em"
+            role="img"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="m6 9l6 6l6-6"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div>
+      <div
+        class="grid gap-6"
+        style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));"
+      >
+        <div
+          class="flex flex-col overflow-hidden h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none relative"
+          tabindex="-1"
+        >
+          <a
+            href="/product/1"
+          >
+            <div
+              class="relative "
+            >
+              <img
+                alt="Gaming Laptop"
+                class="relative z-10 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none opacity-0 motion-reduce:transition-none !duration-300 rounded-large w-full h-60 object-cover cursor-pointer transition-transform hover:scale-[1.03]"
+                src="/laptop.jpg"
+              />
+            </div>
+          </a>
+          <div
+            class="p-4 space-y-3"
+          >
+            <a
+              href="/product/1"
+            >
+              <h3
+                class="font-semibold text-lg hover:text-primary transition-colors "
+              >
+                Gaming Laptop
+              </h3>
+            </a>
+            <div
+              class="flex items-center justify-between"
+            >
+              <p
+                class="font-medium text-default-600"
+              >
+                $
+                999.99
+              </p>
+              <p
+                class="text-xs text-default-500"
+              >
+                Electronics
+              </p>
+            </div>
+            <button
+              class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-3 min-w-16 h-8 text-tiny gap-2 rounded-small [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary/20 text-primary-600 data-[hover=true]:opacity-hover w-full"
+              data-react-aria-pressable="true"
+              tabindex="0"
+              type="button"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex flex-col overflow-hidden h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none relative"
+          tabindex="-1"
+        >
+          <a
+            href="/product/2"
+          >
+            <div
+              class="relative "
+            >
+              <img
+                alt="Cotton T-Shirt"
+                class="relative z-10 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none opacity-0 motion-reduce:transition-none !duration-300 rounded-large w-full h-60 object-cover cursor-pointer transition-transform hover:scale-[1.03]"
+                src="/tshirt.jpg"
+              />
+            </div>
+          </a>
+          <div
+            class="p-4 space-y-3"
+          >
+            <a
+              href="/product/2"
+            >
+              <h3
+                class="font-semibold text-lg hover:text-primary transition-colors "
+              >
+                Cotton T-Shirt
+              </h3>
+            </a>
+            <div
+              class="flex items-center justify-between"
+            >
+              <p
+                class="font-medium text-default-600"
+              >
+                $
+                29.99
+              </p>
+              <p
+                class="text-xs text-default-500"
+              >
+                Clothing
+              </p>
+            </div>
+            <button
+              class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-3 min-w-16 h-8 text-tiny gap-2 rounded-small [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary/20 text-primary-600 data-[hover=true]:opacity-hover w-full"
+              data-react-aria-pressable="true"
+              tabindex="0"
+              type="button"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex flex-col overflow-hidden h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none relative"
+          tabindex="-1"
+        >
+          <div
+            class="relative inline-flex shrink-0"
+          >
+            <span />
+            <span
+              class="flex flex-wrap absolute box-border rounded-full whitespace-nowrap place-content-center origin-center items-center select-none font-regular scale-100 opacity-100 subpixel-antialiased data-[invisible=true]:scale-0 data-[invisible=true]:opacity-0 px-1 text-small transition-transform-opacity !ease-soft-spring !duration-300 border-2 border-background bg-danger text-danger-foreground top-[5%] right-[5%] translate-x-1/2 -translate-y-1/2 z-10 m-2 cursor-pointer"
+            >
+              SALE
+            </span>
+          </div>
+          <div
+            class="max-w-fit min-w-min inline-flex items-center justify-between box-border whitespace-nowrap px-1 h-6 text-tiny rounded-full bg-danger/20 text-danger-600 dark:text-danger-500 absolute top-2 left-2 z-10"
+          >
+            <span
+              class="flex-1 text-inherit font-normal px-1"
+            >
+              Unavailable
+            </span>
+          </div>
+          <a
+            href="/product/3"
+          >
+            <div
+              class="relative opacity-75"
+            >
+              <img
+                alt="Running Shoes"
+                class="relative z-10 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none opacity-0 motion-reduce:transition-none !duration-300 rounded-large w-full h-60 object-cover cursor-pointer transition-transform hover:scale-[1.03]"
+                src="/shoes.jpg"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="iconify iconify--lucide text-white text-4xl"
+                  height="1em"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                    />
+                    <path
+                      d="m15 9l-6 6m0-6l6 6"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <div
+            class="p-4 space-y-3"
+          >
+            <a
+              href="/product/3"
+            >
+              <h3
+                class="font-semibold text-lg hover:text-primary transition-colors text-default-400"
+              >
+                Running Shoes
+              </h3>
+            </a>
+            <div
+              class="flex items-center justify-between"
+            >
+              <p
+                class="font-medium text-default-400"
+              >
+                $
+                79.99
+              </p>
+              <p
+                class="text-xs text-default-500"
+              >
+                Footwear
+              </p>
+            </div>
+            <button
+              class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-3 min-w-16 h-8 text-tiny gap-2 rounded-small pointer-events-none [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary/20 text-primary-600 data-[hover=true]:opacity-hover w-full opacity-50 cursor-not-allowed"
+              data-disabled="true"
+              data-react-aria-pressable="true"
+              disabled=""
+              type="button"
+            >
+              Unavailable
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

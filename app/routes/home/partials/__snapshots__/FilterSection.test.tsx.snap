@@ -1,0 +1,214 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FilterSection > snapshots > renders filter section correctly 1`] = `
+<div
+  class="flex flex-col sm:flex-row gap-4 mb-6"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased"
+    data-react-aria-pressable="true"
+    data-slot="trigger"
+    id="react-aria-«r5s»"
+    tabindex="0"
+    type="button"
+  >
+    Filter by Category
+    <svg
+      aria-hidden="true"
+      class="iconify iconify--lucide text-sm"
+      focusable="false"
+      height="1em"
+      role="img"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        d="m6 9l6 6l6-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+  </button>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased"
+    data-react-aria-pressable="true"
+    data-slot="trigger"
+    id="react-aria-«r5v»"
+    tabindex="0"
+    type="button"
+  >
+    Sort by Price
+    <svg
+      aria-hidden="true"
+      class="iconify iconify--lucide text-sm"
+      focusable="false"
+      height="1em"
+      role="img"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        d="m6 9l6 6l6-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`FilterSection > snapshots > renders with electronics category selected 1`] = `
+<div
+  class="flex flex-col sm:flex-row gap-4 mb-6"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased"
+    data-react-aria-pressable="true"
+    data-slot="trigger"
+    id="react-aria-«r62»"
+    tabindex="0"
+    type="button"
+  >
+    Filter by Category
+    <svg
+      aria-hidden="true"
+      class="iconify iconify--lucide text-sm"
+      focusable="false"
+      height="1em"
+      role="img"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        d="m6 9l6 6l6-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+  </button>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased"
+    data-react-aria-pressable="true"
+    data-slot="trigger"
+    id="react-aria-«r65»"
+    tabindex="0"
+    type="button"
+  >
+    Sort by Price
+    <svg
+      aria-hidden="true"
+      class="iconify iconify--lucide text-sm"
+      focusable="false"
+      height="1em"
+      role="img"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        d="m6 9l6 6l6-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`FilterSection > snapshots > renders with low-to-high sort selected 1`] = `
+<div
+  class="flex flex-col sm:flex-row gap-4 mb-6"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased"
+    data-react-aria-pressable="true"
+    data-slot="trigger"
+    id="react-aria-«r68»"
+    tabindex="0"
+    type="button"
+  >
+    Filter by Category
+    <svg
+      aria-hidden="true"
+      class="iconify iconify--lucide text-sm"
+      focusable="false"
+      height="1em"
+      role="img"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        d="m6 9l6 6l6-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+  </button>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover z-10 aria-expanded:scale-[0.97] aria-expanded:opacity-70 subpixel-antialiased"
+    data-react-aria-pressable="true"
+    data-slot="trigger"
+    id="react-aria-«r6b»"
+    tabindex="0"
+    type="button"
+  >
+    Sort by Price
+    <svg
+      aria-hidden="true"
+      class="iconify iconify--lucide text-sm"
+      focusable="false"
+      height="1em"
+      role="img"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <path
+        d="m6 9l6 6l6-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+  </button>
+</div>
+`;

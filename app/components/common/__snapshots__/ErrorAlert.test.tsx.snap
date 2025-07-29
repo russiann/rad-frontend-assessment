@@ -1,0 +1,97 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ErrorAlert > snapshots > renders default variant correctly 1`] = `
+<div>
+  <div
+    class="p-3 bg-danger-50 border border-danger-200 rounded-lg "
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <div
+        class="flex items-center gap-2"
+      >
+        <span />
+        <span
+          class="text-danger-700 text-sm"
+        >
+          Default error
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ErrorAlert > snapshots > renders inline variant correctly 1`] = `
+<div>
+  <div
+    class="p-3 bg-danger-50 border border-danger-200 rounded-lg "
+  >
+    <div
+      class="flex items-center gap-2"
+    >
+      <span />
+      <span
+        class="text-danger-700 text-sm"
+      >
+        Inline error
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ErrorAlert > snapshots > renders with custom className correctly 1`] = `
+<div>
+  <div
+    class="p-3 bg-danger-50 border border-danger-200 rounded-lg custom-class"
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <div
+        class="flex items-center gap-2"
+      >
+        <span />
+        <span
+          class="text-danger-700 text-sm"
+        >
+          Error with custom class
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ErrorAlert > snapshots > renders with dismiss button correctly 1`] = `
+<div>
+  <div
+    class="p-3 bg-danger-50 border border-danger-200 rounded-lg "
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <div
+        class="flex items-center gap-2"
+      >
+        <span />
+        <span
+          class="text-danger-700 text-sm"
+        >
+          Error with dismiss
+        </span>
+      </div>
+      <button
+        class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-tiny gap-2 rounded-small px-0 !gap-0 transition-transform-colors-opacity motion-reduce:transition-none bg-transparent text-danger data-[hover=true]:bg-danger/20 min-w-8 w-8 h-8"
+        data-react-aria-pressable="true"
+        tabindex="0"
+        type="button"
+      >
+        <span />
+      </button>
+    </div>
+  </div>
+</div>
+`;

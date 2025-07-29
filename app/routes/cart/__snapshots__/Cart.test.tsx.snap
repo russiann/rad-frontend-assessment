@@ -1,0 +1,1010 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cart > snapshots > renders cart with items correctly 1`] = `
+<div
+  data-overlay-container="true"
+>
+  <div
+    class="container mx-auto px-4 py-8 max-w-6xl"
+  >
+    <h1
+      class="text-2xl font-bold mb-8"
+    >
+      Shopping Cart
+    </h1>
+    <div
+      class="grid grid-cols-1 lg:grid-cols-3 gap-8"
+    >
+      <div
+        class="lg:col-span-2"
+      >
+        <div
+          class="lg:col-span-2 space-y-4"
+        >
+          <div
+            class="flex flex-col relative h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none overflow-visible"
+            tabindex="-1"
+          >
+            <div
+              class="relative flex w-full flex-auto flex-col place-content-inherit align-items-inherit h-auto break-words text-left overflow-y-auto subpixel-antialiased p-4"
+            >
+              <div
+                class="flex flex-col sm:flex-row gap-4"
+              >
+                <div
+                  class="w-full sm:w-24 h-24 flex-shrink-0"
+                >
+                  <img
+                    alt="Test Product 1"
+                    class="relative z-10 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none opacity-0 transition-transform-opacity motion-reduce:transition-none !duration-300 w-full h-full object-cover rounded-md"
+                    src="/test1.jpg"
+                  />
+                </div>
+                <div
+                  class="flex-1 space-y-2"
+                >
+                  <div
+                    class="flex justify-between"
+                  >
+                    <h3
+                      class="font-semibold"
+                    >
+                      Test Product 1
+                    </h3>
+                    <p
+                      class="font-medium"
+                    >
+                      $
+                      199.98
+                    </p>
+                  </div>
+                  <p
+                    class="text-default-500 text-sm"
+                  >
+                    $
+                    99.99
+                     each
+                  </p>
+                  <div
+                    class="flex flex-wrap justify-between items-center gap-3 pt-2"
+                  >
+                    <div
+                      class="w-32"
+                    >
+                      <div
+                        class="group flex flex-col data-[hidden=true]:hidden w-full is-filled"
+                        data-filled="true"
+                        data-filled-within="true"
+                        data-has-elements="true"
+                        data-has-label="true"
+                        data-has-value="true"
+                        data-slot="base"
+                      >
+                        <div
+                          class="relative w-full inline-flex tap-highlight-transparent shadow-sm px-3 bg-default-100 data-[hover=true]:bg-default-200 group-data-[focus=true]:bg-default-100 min-h-10 rounded-medium flex-col items-start justify-center gap-0 transition-background motion-reduce:transition-none !duration-150 outline-hidden group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background h-14 py-2 is-filled"
+                          data-slot="input-wrapper"
+                          style="cursor: text;"
+                        >
+                          <label
+                            class="absolute z-10 pointer-events-none origin-top-left flex-shrink-0 rtl:origin-top-right subpixel-antialiased block text-foreground-500 cursor-text will-change-auto !duration-200 !ease-out motion-reduce:transition-none transition-[transform,color,left,opacity,translate,scale] group-data-[filled-within=true]:text-default-600 group-data-[filled-within=true]:pointer-events-auto group-data-[filled-within=true]:scale-85 group-data-[filled-within=true]:-translate-y-[calc(50%_+_var(--heroui-font-size-small)/2_-_6px)] text-small pe-2 max-w-full text-ellipsis overflow-hidden"
+                            data-slot="label"
+                            for="react-aria-«r2i»"
+                            id="react-aria-«r2k»"
+                          >
+                            Quantity
+                          </label>
+                          <div
+                            class="inline-flex w-full items-center h-full box-border group-data-[has-label=true]:items-end pb-0.5"
+                            data-slot="inner-wrapper"
+                            role="group"
+                          >
+                            <input
+                              aria-labelledby="react-aria-«r2k»"
+                              aria-roledescription="Number field"
+                              autocomplete="off"
+                              autocorrect="off"
+                              class="w-full font-normal bg-transparent !outline-hidden placeholder:text-foreground-500 focus-visible:outline-hidden data-[has-start-content=true]:ps-1.5 data-[has-end-content=true]:pe-1.5 autofill:bg-transparent bg-clip-text text-small group-data-[has-value=true]:text-default-foreground is-filled"
+                              data-filled="true"
+                              data-slot="input"
+                              id="react-aria-«r2i»"
+                              inputmode="numeric"
+                              max="10"
+                              min="1"
+                              spellcheck="false"
+                              tabindex="0"
+                              title=""
+                              type="text"
+                              value="2"
+                            />
+                            <input
+                              data-slot="hidden-input"
+                              type="hidden"
+                              value="2"
+                            />
+                            <div
+                              class="flex flex-col ps-1 h-full justify-center"
+                              data-slot="stepper-wrapper"
+                            >
+                              <button
+                                aria-controls="react-aria-«r2i»"
+                                aria-label="Increase Quantity"
+                                class="z-0 group relative box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small gap-2 rounded-medium px-0 !gap-0 motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover bg-transparent flex justify-center items-center before:absolute before:w-8 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 min-w-5 w-5 h-5 overflow-visible transition-opacity data-[hover=true]:opacity-70 data-[pressed=true]:opacity-disabled before:h-6"
+                                data-react-aria-pressable="true"
+                                data-slot="increase-button"
+                                tabindex="-1"
+                                type="button"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  fill="none"
+                                  focusable="false"
+                                  height="1em"
+                                  role="presentation"
+                                  stroke="currentColor"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="1.5"
+                                  viewBox="0 0 24 24"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="m18 15-6-6-6 6"
+                                  />
+                                </svg>
+                              </button>
+                              <button
+                                aria-controls="react-aria-«r2i»"
+                                aria-label="Decrease Quantity"
+                                class="z-0 group relative box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small gap-2 rounded-medium px-0 !gap-0 motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover bg-transparent flex justify-center items-center before:absolute before:w-8 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 min-w-5 w-5 h-5 overflow-visible transition-opacity data-[hover=true]:opacity-70 data-[pressed=true]:opacity-disabled before:h-6"
+                                data-react-aria-pressable="true"
+                                data-slot="decrease-button"
+                                tabindex="-1"
+                                type="button"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  fill="none"
+                                  focusable="false"
+                                  height="1em"
+                                  role="presentation"
+                                  stroke="currentColor"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="1.5"
+                                  viewBox="0 0 24 24"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="m6 9 6 6 6-6"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-3 min-w-16 h-8 text-tiny gap-2 rounded-small [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-danger/20 text-danger-600 dark:text-danger-500 data-[hover=true]:opacity-hover"
+                      data-react-aria-pressable="true"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span />
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col relative h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none overflow-visible"
+            tabindex="-1"
+          >
+            <div
+              class="relative flex w-full flex-auto flex-col place-content-inherit align-items-inherit h-auto break-words text-left overflow-y-auto subpixel-antialiased p-4"
+            >
+              <div
+                class="flex flex-col sm:flex-row gap-4"
+              >
+                <div
+                  class="w-full sm:w-24 h-24 flex-shrink-0"
+                >
+                  <img
+                    alt="Test Product 2"
+                    class="relative z-10 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none opacity-0 transition-transform-opacity motion-reduce:transition-none !duration-300 w-full h-full object-cover rounded-md"
+                    src="/test2.jpg"
+                  />
+                </div>
+                <div
+                  class="flex-1 space-y-2"
+                >
+                  <div
+                    class="flex justify-between"
+                  >
+                    <h3
+                      class="font-semibold"
+                    >
+                      Test Product 2
+                    </h3>
+                    <p
+                      class="font-medium"
+                    >
+                      $
+                      149.99
+                    </p>
+                  </div>
+                  <p
+                    class="text-default-500 text-sm"
+                  >
+                    $
+                    149.99
+                     each
+                  </p>
+                  <div
+                    class="flex flex-wrap justify-between items-center gap-3 pt-2"
+                  >
+                    <div
+                      class="w-32"
+                    >
+                      <div
+                        class="group flex flex-col data-[hidden=true]:hidden w-full is-filled"
+                        data-filled="true"
+                        data-filled-within="true"
+                        data-has-elements="true"
+                        data-has-label="true"
+                        data-has-value="true"
+                        data-slot="base"
+                      >
+                        <div
+                          class="relative w-full inline-flex tap-highlight-transparent shadow-sm px-3 bg-default-100 data-[hover=true]:bg-default-200 group-data-[focus=true]:bg-default-100 min-h-10 rounded-medium flex-col items-start justify-center gap-0 transition-background motion-reduce:transition-none !duration-150 outline-hidden group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background h-14 py-2 is-filled"
+                          data-slot="input-wrapper"
+                          style="cursor: text;"
+                        >
+                          <label
+                            class="absolute z-10 pointer-events-none origin-top-left flex-shrink-0 rtl:origin-top-right subpixel-antialiased block text-foreground-500 cursor-text will-change-auto !duration-200 !ease-out motion-reduce:transition-none transition-[transform,color,left,opacity,translate,scale] group-data-[filled-within=true]:text-default-600 group-data-[filled-within=true]:pointer-events-auto group-data-[filled-within=true]:scale-85 group-data-[filled-within=true]:-translate-y-[calc(50%_+_var(--heroui-font-size-small)/2_-_6px)] text-small pe-2 max-w-full text-ellipsis overflow-hidden"
+                            data-slot="label"
+                            for="react-aria-«r2q»"
+                            id="react-aria-«r2s»"
+                          >
+                            Quantity
+                          </label>
+                          <div
+                            class="inline-flex w-full items-center h-full box-border group-data-[has-label=true]:items-end pb-0.5"
+                            data-slot="inner-wrapper"
+                            role="group"
+                          >
+                            <input
+                              aria-labelledby="react-aria-«r2s»"
+                              aria-roledescription="Number field"
+                              autocomplete="off"
+                              autocorrect="off"
+                              class="w-full font-normal bg-transparent !outline-hidden placeholder:text-foreground-500 focus-visible:outline-hidden data-[has-start-content=true]:ps-1.5 data-[has-end-content=true]:pe-1.5 autofill:bg-transparent bg-clip-text text-small group-data-[has-value=true]:text-default-foreground is-filled"
+                              data-filled="true"
+                              data-slot="input"
+                              id="react-aria-«r2q»"
+                              inputmode="numeric"
+                              max="10"
+                              min="1"
+                              spellcheck="false"
+                              tabindex="0"
+                              title=""
+                              type="text"
+                              value="1"
+                            />
+                            <input
+                              data-slot="hidden-input"
+                              type="hidden"
+                              value="1"
+                            />
+                            <div
+                              class="flex flex-col ps-1 h-full justify-center"
+                              data-slot="stepper-wrapper"
+                            >
+                              <button
+                                aria-controls="react-aria-«r2q»"
+                                aria-label="Increase Quantity"
+                                class="z-0 group relative box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small gap-2 rounded-medium px-0 !gap-0 motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover bg-transparent flex justify-center items-center before:absolute before:w-8 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 min-w-5 w-5 h-5 overflow-visible transition-opacity data-[hover=true]:opacity-70 data-[pressed=true]:opacity-disabled before:h-6"
+                                data-react-aria-pressable="true"
+                                data-slot="increase-button"
+                                tabindex="-1"
+                                type="button"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  fill="none"
+                                  focusable="false"
+                                  height="1em"
+                                  role="presentation"
+                                  stroke="currentColor"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="1.5"
+                                  viewBox="0 0 24 24"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="m18 15-6-6-6 6"
+                                  />
+                                </svg>
+                              </button>
+                              <button
+                                aria-controls="react-aria-«r2q»"
+                                aria-label="Decrease Quantity"
+                                class="z-0 group relative box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small gap-2 rounded-medium px-0 !gap-0 motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover bg-transparent flex justify-center items-center before:absolute before:w-8 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 min-w-5 w-5 h-5 overflow-visible transition-opacity data-[hover=true]:opacity-70 data-[pressed=true]:opacity-disabled before:h-6"
+                                data-react-aria-pressable="true"
+                                data-slot="decrease-button"
+                                tabindex="-1"
+                                type="button"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  fill="none"
+                                  focusable="false"
+                                  height="1em"
+                                  role="presentation"
+                                  stroke="currentColor"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="1.5"
+                                  viewBox="0 0 24 24"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="m6 9 6 6 6-6"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-3 min-w-16 h-8 text-tiny gap-2 rounded-small [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-danger/20 text-danger-600 dark:text-danger-500 data-[hover=true]:opacity-hover"
+                      data-react-aria-pressable="true"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span />
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="lg:col-span-1"
+      >
+        <div>
+          <div
+            class="flex flex-col overflow-hidden h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none sticky top-4"
+            tabindex="-1"
+          >
+            <div
+              class="relative flex w-full flex-auto flex-col place-content-inherit align-items-inherit h-auto break-words text-left overflow-y-auto subpixel-antialiased p-6"
+            >
+              <h3
+                class="text-lg font-semibold mb-4"
+              >
+                Order Summary
+              </h3>
+              <div
+                class="space-y-3"
+              >
+                <div
+                  class="flex justify-between"
+                >
+                  <p
+                    class="text-default-600"
+                  >
+                    Subtotal
+                  </p>
+                  <p>
+                    $
+                    349.97
+                  </p>
+                </div>
+                <div
+                  class="flex justify-between"
+                >
+                  <p
+                    class="text-default-600"
+                  >
+                    Tax (8%)
+                  </p>
+                  <p>
+                    $
+                    28.00
+                  </p>
+                </div>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider my-3"
+                  role="separator"
+                />
+                <div
+                  class="flex justify-between"
+                >
+                  <p
+                    class="font-semibold"
+                  >
+                    Total
+                  </p>
+                  <p
+                    class="font-semibold"
+                  >
+                    $
+                    377.97
+                  </p>
+                </div>
+              </div>
+              <a
+                class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-6 min-w-24 h-12 text-medium gap-3 rounded-large [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover mt-6 w-full"
+                data-react-aria-pressable="true"
+                role="button"
+                tabindex="0"
+              >
+                <span />
+                Proceed to Checkout
+              </a>
+              <a
+                class="text-sm text-primary flex items-center justify-center mt-4"
+                href="/"
+              >
+                <span />
+                Continue Shopping
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cart > snapshots > renders empty cart correctly 1`] = `
+<div
+  data-overlay-container="true"
+>
+  <div
+    class="py-16 text-center"
+  >
+    <p
+      class="text-default-600 mb-6"
+    >
+      Your cart is currently empty.
+    </p>
+    <a
+      class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover"
+      data-react-aria-pressable="true"
+      role="button"
+      tabindex="0"
+    >
+      <span />
+      Continue Shopping
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Cart Page > snapshots > renders cart with items correctly 1`] = `
+<div
+  data-overlay-container="true"
+>
+  <div
+    class="container mx-auto px-4 py-8 max-w-6xl"
+  >
+    <h1
+      class="text-2xl font-bold mb-8"
+    >
+      Shopping Cart
+    </h1>
+    <div
+      class="grid grid-cols-1 lg:grid-cols-3 gap-8"
+    >
+      <div
+        class="lg:col-span-2"
+      >
+        <div
+          class="lg:col-span-2 space-y-4"
+        >
+          <div
+            class="flex flex-col relative h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none overflow-visible"
+            tabindex="-1"
+          >
+            <div
+              class="relative flex w-full flex-auto flex-col place-content-inherit align-items-inherit h-auto break-words text-left overflow-y-auto subpixel-antialiased p-4"
+            >
+              <div
+                class="flex flex-col sm:flex-row gap-4"
+              >
+                <div
+                  class="w-full sm:w-24 h-24 flex-shrink-0"
+                >
+                  <img
+                    alt="Test Product 1"
+                    class="relative z-10 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none opacity-0 transition-transform-opacity motion-reduce:transition-none !duration-300 w-full h-full object-cover rounded-md"
+                    src="/test1.jpg"
+                  />
+                </div>
+                <div
+                  class="flex-1 space-y-2"
+                >
+                  <div
+                    class="flex justify-between"
+                  >
+                    <h3
+                      class="font-semibold"
+                    >
+                      Test Product 1
+                    </h3>
+                    <p
+                      class="font-medium"
+                    >
+                      $
+                      199.98
+                    </p>
+                  </div>
+                  <p
+                    class="text-default-500 text-sm"
+                  >
+                    $
+                    99.99
+                     each
+                  </p>
+                  <div
+                    class="flex flex-wrap justify-between items-center gap-3 pt-2"
+                  >
+                    <div
+                      class="w-32"
+                    >
+                      <div
+                        class="group flex flex-col data-[hidden=true]:hidden w-full is-filled"
+                        data-filled="true"
+                        data-filled-within="true"
+                        data-has-elements="true"
+                        data-has-label="true"
+                        data-has-value="true"
+                        data-slot="base"
+                      >
+                        <div
+                          class="relative w-full inline-flex tap-highlight-transparent shadow-sm px-3 bg-default-100 data-[hover=true]:bg-default-200 group-data-[focus=true]:bg-default-100 min-h-10 rounded-medium flex-col items-start justify-center gap-0 transition-background motion-reduce:transition-none !duration-150 outline-hidden group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background h-14 py-2 is-filled"
+                          data-slot="input-wrapper"
+                          style="cursor: text;"
+                        >
+                          <label
+                            class="absolute z-10 pointer-events-none origin-top-left flex-shrink-0 rtl:origin-top-right subpixel-antialiased block text-foreground-500 cursor-text will-change-auto !duration-200 !ease-out motion-reduce:transition-none transition-[transform,color,left,opacity,translate,scale] group-data-[filled-within=true]:text-default-600 group-data-[filled-within=true]:pointer-events-auto group-data-[filled-within=true]:scale-85 group-data-[filled-within=true]:-translate-y-[calc(50%_+_var(--heroui-font-size-small)/2_-_6px)] text-small pe-2 max-w-full text-ellipsis overflow-hidden"
+                            data-slot="label"
+                            for="react-aria-«r1g»"
+                            id="react-aria-«r1i»"
+                          >
+                            Quantity
+                          </label>
+                          <div
+                            class="inline-flex w-full items-center h-full box-border group-data-[has-label=true]:items-end pb-0.5"
+                            data-slot="inner-wrapper"
+                            role="group"
+                          >
+                            <input
+                              aria-labelledby="react-aria-«r1i»"
+                              aria-roledescription="Number field"
+                              autocomplete="off"
+                              autocorrect="off"
+                              class="w-full font-normal bg-transparent !outline-hidden placeholder:text-foreground-500 focus-visible:outline-hidden data-[has-start-content=true]:ps-1.5 data-[has-end-content=true]:pe-1.5 autofill:bg-transparent bg-clip-text text-small group-data-[has-value=true]:text-default-foreground is-filled"
+                              data-filled="true"
+                              data-slot="input"
+                              id="react-aria-«r1g»"
+                              inputmode="numeric"
+                              max="10"
+                              min="1"
+                              spellcheck="false"
+                              tabindex="0"
+                              title=""
+                              type="text"
+                              value="2"
+                            />
+                            <input
+                              data-slot="hidden-input"
+                              type="hidden"
+                              value="2"
+                            />
+                            <div
+                              class="flex flex-col ps-1 h-full justify-center"
+                              data-slot="stepper-wrapper"
+                            >
+                              <button
+                                aria-controls="react-aria-«r1g»"
+                                aria-label="Increase Quantity"
+                                class="z-0 group relative box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small gap-2 rounded-medium px-0 !gap-0 motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover bg-transparent flex justify-center items-center before:absolute before:w-8 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 min-w-5 w-5 h-5 overflow-visible transition-opacity data-[hover=true]:opacity-70 data-[pressed=true]:opacity-disabled before:h-6"
+                                data-react-aria-pressable="true"
+                                data-slot="increase-button"
+                                tabindex="-1"
+                                type="button"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  fill="none"
+                                  focusable="false"
+                                  height="1em"
+                                  role="presentation"
+                                  stroke="currentColor"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="1.5"
+                                  viewBox="0 0 24 24"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="m18 15-6-6-6 6"
+                                  />
+                                </svg>
+                              </button>
+                              <button
+                                aria-controls="react-aria-«r1g»"
+                                aria-label="Decrease Quantity"
+                                class="z-0 group relative box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small gap-2 rounded-medium px-0 !gap-0 motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover bg-transparent flex justify-center items-center before:absolute before:w-8 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 min-w-5 w-5 h-5 overflow-visible transition-opacity data-[hover=true]:opacity-70 data-[pressed=true]:opacity-disabled before:h-6"
+                                data-react-aria-pressable="true"
+                                data-slot="decrease-button"
+                                tabindex="-1"
+                                type="button"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  fill="none"
+                                  focusable="false"
+                                  height="1em"
+                                  role="presentation"
+                                  stroke="currentColor"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="1.5"
+                                  viewBox="0 0 24 24"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="m6 9 6 6 6-6"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-3 min-w-16 h-8 text-tiny gap-2 rounded-small [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-danger/20 text-danger-600 dark:text-danger-500 data-[hover=true]:opacity-hover"
+                      data-react-aria-pressable="true"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        data-testid="icon"
+                      >
+                        lucide:trash-2
+                      </span>
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col relative h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none overflow-visible"
+            tabindex="-1"
+          >
+            <div
+              class="relative flex w-full flex-auto flex-col place-content-inherit align-items-inherit h-auto break-words text-left overflow-y-auto subpixel-antialiased p-4"
+            >
+              <div
+                class="flex flex-col sm:flex-row gap-4"
+              >
+                <div
+                  class="w-full sm:w-24 h-24 flex-shrink-0"
+                >
+                  <img
+                    alt="Test Product 2"
+                    class="relative z-10 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none opacity-0 transition-transform-opacity motion-reduce:transition-none !duration-300 w-full h-full object-cover rounded-md"
+                    src="/test2.jpg"
+                  />
+                </div>
+                <div
+                  class="flex-1 space-y-2"
+                >
+                  <div
+                    class="flex justify-between"
+                  >
+                    <h3
+                      class="font-semibold"
+                    >
+                      Test Product 2
+                    </h3>
+                    <p
+                      class="font-medium"
+                    >
+                      $
+                      149.99
+                    </p>
+                  </div>
+                  <p
+                    class="text-default-500 text-sm"
+                  >
+                    $
+                    149.99
+                     each
+                  </p>
+                  <div
+                    class="flex flex-wrap justify-between items-center gap-3 pt-2"
+                  >
+                    <div
+                      class="w-32"
+                    >
+                      <div
+                        class="group flex flex-col data-[hidden=true]:hidden w-full is-filled"
+                        data-filled="true"
+                        data-filled-within="true"
+                        data-has-elements="true"
+                        data-has-label="true"
+                        data-has-value="true"
+                        data-slot="base"
+                      >
+                        <div
+                          class="relative w-full inline-flex tap-highlight-transparent shadow-sm px-3 bg-default-100 data-[hover=true]:bg-default-200 group-data-[focus=true]:bg-default-100 min-h-10 rounded-medium flex-col items-start justify-center gap-0 transition-background motion-reduce:transition-none !duration-150 outline-hidden group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background h-14 py-2 is-filled"
+                          data-slot="input-wrapper"
+                          style="cursor: text;"
+                        >
+                          <label
+                            class="absolute z-10 pointer-events-none origin-top-left flex-shrink-0 rtl:origin-top-right subpixel-antialiased block text-foreground-500 cursor-text will-change-auto !duration-200 !ease-out motion-reduce:transition-none transition-[transform,color,left,opacity,translate,scale] group-data-[filled-within=true]:text-default-600 group-data-[filled-within=true]:pointer-events-auto group-data-[filled-within=true]:scale-85 group-data-[filled-within=true]:-translate-y-[calc(50%_+_var(--heroui-font-size-small)/2_-_6px)] text-small pe-2 max-w-full text-ellipsis overflow-hidden"
+                            data-slot="label"
+                            for="react-aria-«r1o»"
+                            id="react-aria-«r1q»"
+                          >
+                            Quantity
+                          </label>
+                          <div
+                            class="inline-flex w-full items-center h-full box-border group-data-[has-label=true]:items-end pb-0.5"
+                            data-slot="inner-wrapper"
+                            role="group"
+                          >
+                            <input
+                              aria-labelledby="react-aria-«r1q»"
+                              aria-roledescription="Number field"
+                              autocomplete="off"
+                              autocorrect="off"
+                              class="w-full font-normal bg-transparent !outline-hidden placeholder:text-foreground-500 focus-visible:outline-hidden data-[has-start-content=true]:ps-1.5 data-[has-end-content=true]:pe-1.5 autofill:bg-transparent bg-clip-text text-small group-data-[has-value=true]:text-default-foreground is-filled"
+                              data-filled="true"
+                              data-slot="input"
+                              id="react-aria-«r1o»"
+                              inputmode="numeric"
+                              max="10"
+                              min="1"
+                              spellcheck="false"
+                              tabindex="0"
+                              title=""
+                              type="text"
+                              value="1"
+                            />
+                            <input
+                              data-slot="hidden-input"
+                              type="hidden"
+                              value="1"
+                            />
+                            <div
+                              class="flex flex-col ps-1 h-full justify-center"
+                              data-slot="stepper-wrapper"
+                            >
+                              <button
+                                aria-controls="react-aria-«r1o»"
+                                aria-label="Increase Quantity"
+                                class="z-0 group relative box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small gap-2 rounded-medium px-0 !gap-0 motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover bg-transparent flex justify-center items-center before:absolute before:w-8 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 min-w-5 w-5 h-5 overflow-visible transition-opacity data-[hover=true]:opacity-70 data-[pressed=true]:opacity-disabled before:h-6"
+                                data-react-aria-pressable="true"
+                                data-slot="increase-button"
+                                tabindex="-1"
+                                type="button"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  fill="none"
+                                  focusable="false"
+                                  height="1em"
+                                  role="presentation"
+                                  stroke="currentColor"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="1.5"
+                                  viewBox="0 0 24 24"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="m18 15-6-6-6 6"
+                                  />
+                                </svg>
+                              </button>
+                              <button
+                                aria-controls="react-aria-«r1o»"
+                                aria-label="Decrease Quantity"
+                                class="z-0 group relative box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-small gap-2 rounded-medium px-0 !gap-0 motion-reduce:transition-none text-default-foreground data-[hover=true]:opacity-hover bg-transparent flex justify-center items-center before:absolute before:w-8 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 min-w-5 w-5 h-5 overflow-visible transition-opacity data-[hover=true]:opacity-70 data-[pressed=true]:opacity-disabled before:h-6"
+                                data-react-aria-pressable="true"
+                                data-slot="decrease-button"
+                                tabindex="-1"
+                                type="button"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  fill="none"
+                                  focusable="false"
+                                  height="1em"
+                                  role="presentation"
+                                  stroke="currentColor"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="1.5"
+                                  viewBox="0 0 24 24"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="m6 9 6 6 6-6"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-3 min-w-16 h-8 text-tiny gap-2 rounded-small [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-danger/20 text-danger-600 dark:text-danger-500 data-[hover=true]:opacity-hover"
+                      data-react-aria-pressable="true"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        data-testid="icon"
+                      >
+                        lucide:trash-2
+                      </span>
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="lg:col-span-1"
+      >
+        <div>
+          <div
+            class="flex flex-col overflow-hidden h-auto text-foreground box-border bg-content1 outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 shadow-medium rounded-large transition-transform-background motion-reduce:transition-none sticky top-4"
+            tabindex="-1"
+          >
+            <div
+              class="relative flex w-full flex-auto flex-col place-content-inherit align-items-inherit h-auto break-words text-left overflow-y-auto subpixel-antialiased p-6"
+            >
+              <h3
+                class="text-lg font-semibold mb-4"
+              >
+                Order Summary
+              </h3>
+              <div
+                class="space-y-3"
+              >
+                <div
+                  class="flex justify-between"
+                >
+                  <p
+                    class="text-default-600"
+                  >
+                    Subtotal
+                  </p>
+                  <p>
+                    $
+                    349.97
+                  </p>
+                </div>
+                <div
+                  class="flex justify-between"
+                >
+                  <p
+                    class="text-default-600"
+                  >
+                    Tax (8%)
+                  </p>
+                  <p>
+                    $
+                    28.00
+                  </p>
+                </div>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider my-3"
+                  role="separator"
+                />
+                <div
+                  class="flex justify-between"
+                >
+                  <p
+                    class="font-semibold"
+                  >
+                    Total
+                  </p>
+                  <p
+                    class="font-semibold"
+                  >
+                    $
+                    377.97
+                  </p>
+                </div>
+              </div>
+              <a
+                class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-6 min-w-24 h-12 text-medium gap-3 rounded-large [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover mt-6 w-full"
+                data-discover="true"
+                data-react-aria-pressable="true"
+                href="/checkout"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  data-testid="icon"
+                >
+                  lucide:credit-card
+                </span>
+                Proceed to Checkout
+              </a>
+              <a
+                class="text-sm text-primary flex items-center justify-center mt-4"
+                data-discover="true"
+                href="/"
+              >
+                <span
+                  data-testid="icon"
+                >
+                  lucide:arrow-left
+                </span>
+                Continue Shopping
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cart Page > snapshots > renders empty cart correctly 1`] = `
+<div
+  data-overlay-container="true"
+>
+  <div
+    class="py-16 text-center"
+  >
+    <p
+      class="text-default-600 mb-6"
+    >
+      Your cart is currently empty.
+    </p>
+    <a
+      class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-hidden data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover"
+      data-discover="true"
+      data-react-aria-pressable="true"
+      href="/"
+      role="button"
+      tabindex="0"
+    >
+      <span
+        data-testid="icon"
+      >
+        lucide:arrow-left
+      </span>
+      Continue Shopping
+    </a>
+  </div>
+</div>
+`;
