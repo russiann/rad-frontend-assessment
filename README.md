@@ -1,5 +1,13 @@
 # RAD Frontend Assessment
 
+A modern, full-stack React e-commerce application featuring real-time notifications, AI shopping assistant, and complete shopping cart functionality.
+
+## 🚀 Live Demo
+
+**[View Live Application](https://rad-frontend-assessment.vercel.app)**
+
+The application is deployed on Vercel with a Turso cloud database for optimal performance and reliability.
+
 ## Tech Stack
 
 ### Frontend
