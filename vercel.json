@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build",
+  "env": {
+    "DATABASE_URL": "libsql://rad-frontend-assessment-russiann.aws-us-east-1.turso.io",
+    "DATABASE_AUTH_TOKEN": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NTM4NjgyMTQsImlkIjoiNGM3NThiNmUtZjFmNS00MTc5LWEwOTctZDg3NDVkZGI4NjNiIiwicmlkIjoiMjRmMjg1MzQtODExYi00ZTVkLTg4N2ItMWQ1YTExZGU3ODNjIn0.YulaiQA8vmSCSNWA06Qil7AxKlECQdQ5cvt1b0L8jThxd7ZGQh4ve_EEVi_5ncaO9PGbA9PD9SOyy3_QPvhsAA"
+  }
+}
