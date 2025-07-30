@@ -1,5 +1,5 @@
 [build]
-command = "npm run build"
+command = "npm run db:migrate && npm run db:seed && npm run build"
 publish = "build/client"
 
 [dev]
