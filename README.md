@@ -45,13 +45,17 @@ The application will be available at `http://localhost:3000`.
 
 ### Database Setup
 
-Initialize and seed the database:
-
+For development:
 ```bash
 npm run db:generate
 npm run db:migrate  
 npm run db:seed
 ```
+
+For production (Turso cloud database):
+- Database is automatically configured for Vercel deployment
+- Uses environment variables from `vercel.json`
+- Migrations and seeding are handled automatically during deployment
 
 ## Testing
 
